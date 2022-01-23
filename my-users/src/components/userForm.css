@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.UsersForm{
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    border-radius: .5rem;
+    width: 100%;    
+}
+label{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    border: none;
+    border-radius: .5rem;
+    margin: 20px auto;
+    width: 50%;
+    height: 2.5rem;
+    background-color: #24A19C;
+    display: flex;
+    justify-content: center;
+    transition: 1.5s ease;
+}
+.input:hover{
+    box-shadow: 2px 2px  15px #000 ;
+    transform: scale();
+}
+.input-container{
+    justify-content: center;
+}
+.button{
+    border: none;
+    border-radius: .5rem;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.button{
+    background-color: #FF7F3F;
+    width: 15%;
+    height: 2.5rem;
+    transition: 1.5s ease;
+}
+.button:hover{
+    box-shadow: 1px 1px  10px #000 ;
+    transform: scale();
+}
+.arrow-counterclockwise{
+    width: 30px;
+    height: 30px;
+}
+.iconn{
+    border: none;
+    background-color: #fff;
+}

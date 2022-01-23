@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+.UsersList{
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;
+    height: 42rem;
+    width: 100%;
+    /* margin: 5px; */
+    padding: 20px;
+}
+.userList{
+    background-color: #24A19C;
+    border-radius: .5rem;
+    margin: 15px;
+}
+ul{
+    list-style: none;
+}
+.pencil-square{
+    width: 30px;
+    height: 30px;
+}
+.icon{
+    background-color: #24A19C;
+    border: none;
+}
